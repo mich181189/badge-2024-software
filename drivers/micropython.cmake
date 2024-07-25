@@ -26,3 +26,6 @@ include(${CMAKE_CURRENT_LIST_DIR}/tildagon/micropython.cmake)
 
 # Add burnt-in HMAC
 include(${CMAKE_CURRENT_LIST_DIR}/tildagon_hmac/micropython.cmake)
+
+# Add DMX interface
+include(${CMAKE_CURRENT_LIST_DIR}/esp32_dmx/micropython.cmake)
